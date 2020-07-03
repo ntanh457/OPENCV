@@ -18,7 +18,7 @@ if __name__ == "__main__":
     if len(sys.argv) == 3:
         alpha = float(sys.argv[1])
         beta = int(sys.argv[2])
-    img = cv2.imread('anh.jpg')  # [height, width, channel]
+    img = cv2.imread('images.jpg')  # [height, width, channel]
 
     # change image brightness g(x,y) = alpha*f(x,y) + beta
     img_new = change_brightness(img, alpha, beta)

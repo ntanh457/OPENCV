@@ -3,7 +3,6 @@ import cv2
 
 # read image
 img = cv2.imread('image.jpg')
-
 # image dimension
 print('img.shape:', img.shape)
 

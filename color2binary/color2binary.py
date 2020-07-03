@@ -12,7 +12,7 @@ if __name__ == "__main__":
     assert len(sys.argv) == 2, '[USAGE] $ python color2binary.py img_5.jpg'
     input_image_path = sys.argv[1]
 
-    assert os.path.isfile(input_image_path), 'Image not found @ %s' % input_image_path
+    assert os.path.isfile(input_image_path), 'Image not found @ %s' % input_imagpe_path
 
     # read color image with grayscale flag: "cv2.IMREAD_GRAYSCALE"
     img_grayscale = cv2.imread(input_image_path, cv2.IMREAD_GRAYSCALE)  # shape: (960, 960)
